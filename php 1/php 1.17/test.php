@@ -1,46 +1,46 @@
 <?php
 
-$n = -13; 
-$r = $n % 2; 
+$n = -13;
+$r = $n % 2;
 
-switch($r){
+switch ($r) {
     case 0:
-       switch($n){
+        switch ($n) {
             case $n > 0:
-                echo"$n is a positive even number";
+                echo "$n is a positive even number";
                 break;
             case $n < 0:
-                echo"$n is a negative even number"; 
+                echo "$n is a negative even number";
                 break;
-       }
-    break;
+        }
+        break;
     default:
-       switch($n){
+        switch ($n) {
             case $n > 0:
-                echo"$n is a positive odd number";
+                echo "$n is a positive odd number";
                 break;
             case $n < 0:
-                echo"$n is a negative odd number";
+                echo "$n is a negative odd number";
                 break;
-       }
+        }
 }
 
 
-echo"\n";
+echo "\n";
 
 // same problem arek vabe slove kora 
 
-switch(true){
-    case ($r==0 && $n>0):
-        echo"$n is a positive even number";
+switch (true) {
+    case ($r == 0 && $n > 0):
+        echo "$n is a positive even number";
         break;
-    case ($r==1 && $n>0):
-        echo"$n is a positive odd number";
+    case ($r == 1 && $n > 0):
+        echo "$n is a positive odd number";
         break;
-    case ($r==0 && $n<0):
-        echo"$n is a negative even number";
+    case ($r == 0 && $n < 0):
+        echo "$n is a negative even number";
         break;
-    case ($r==-1 && $n<0):
-        echo"$n is a negative odd number"; 
+    case ($r == -1 && $n < 0):
+        echo "$n is a negative odd number";
         break;
 }

@@ -1,10 +1,10 @@
 <?php
 
 //parameter
-function isEven($n){
-    if($n%2==0){
+function isEven($n)
+{
+    if ($n % 2 == 0) {
         return true;
-    }else{
-        return false;
     }
+    return false;
 }

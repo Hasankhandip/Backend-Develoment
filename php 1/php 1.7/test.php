@@ -5,7 +5,7 @@
 
 
 /*
-$number=12; 
+$number = 12;
 // $number = $number + 13;
 // $number += 13;
 $number2 = $number + 13;
@@ -13,7 +13,7 @@ $number3 = $number - 13;
 $number4 = $number * 13;
 $number5 = $number / 2;
 $number6 = $number % 2;
-echo $number, "\n" ,$number2,"\n" ,$number3,"\n" ,$number4,"\n" ,$number5,"\n" ,$number6;
+echo $number, "\n", $number2, "\n", $number3, "\n", $number4, "\n", $number5, "\n", $number6;
 */
 
 /*
@@ -69,9 +69,9 @@ echo $number;
 echo "\n";
 */
 
+
 $number1 = 12;
 $number2 = 6;
 $number3 = $number1 / $number2;
 
 echo $number3;
-

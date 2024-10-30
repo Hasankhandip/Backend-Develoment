@@ -18,21 +18,18 @@ fibonacci(0,1,1,15);
 */
 
 
-function fibonacci($old,$new,$end){
-    
+function fibonacci($old, $new, $end)
+{
     static $start;
     $start = $start ?? 1;
-
-    if($start>$end){
+    if ($start > $end) {
         return;
     }
     $start++;
-
-    echo $old." ";
+    echo $old  . " ";
     $_temp = $old + $new;
     $old = $new;
     $new = $_temp;
-
-    fibonacci($old,$new,$end);
+    fibonacci($old, $new, $end);
 }
-fibonacci(0,1,10);
+fibonacci(0, 1, 10);

@@ -1,0 +1,31 @@
+<?php
+
+echo date('d/m/y');
+echo PHP_EOL;
+echo date('d/m/Y');
+echo PHP_EOL;
+echo date('d/M/Y');
+echo PHP_EOL;
+echo date('dS M Y');
+echo PHP_EOL;
+echo date('dS F Y');
+echo PHP_EOL;
+echo date('dS F Y h:i:s');
+echo PHP_EOL;
+echo date('dS F Y H:i:s');
+echo PHP_EOL;
+echo date('dS F Y H:i:s a');
+echo PHP_EOL;
+echo date('dS F Y H:i:s A');
+echo PHP_EOL;
+echo date('z');
+echo PHP_EOL;
+date_default_timezone_set("Asia/Dhaka");
+echo date('dS F Y H:i:s A');
+echo PHP_EOL;
+echo date('t');
+echo PHP_EOL;
+echo date('dS F Y H:i:s A', time() + 24 * 60 * 60);
+echo PHP_EOL;
+echo date('dS F Y H:i:s A', time() + 12 * 60 * 60);
+echo PHP_EOL;

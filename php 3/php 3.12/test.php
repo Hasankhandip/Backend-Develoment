@@ -1,7 +1,7 @@
 <?php
 
-$fruits = array('apple','banana','orange','plum','dates','mango');
-$random = array("a"=>12,"b"=>45,"c"=>34,"d"=>22,"e"=>77,"f"=>31, 12=>78,"g"=>87 );
+$fruits = array('apple', 'banana', 'orange', 'plum', 'dates', 'mango');
+$random = array("a" => 12, "b" => 45, "c" => 34, "d" => 22, "e" => 77, "f" => 31, 12 => 78, "g" => 87);
 
 
 
@@ -24,9 +24,12 @@ $random = array("a"=>12,"b"=>45,"c"=>34,"d"=>22,"e"=>77,"f"=>31, 12=>78,"g"=>87 
 
 
 
-$r1 = array_slice($random,0,2,true);
-$r2 = array_slice($random,4,null,true);
-$r3= array("j"=>45, "k"=>12);
+$r1 = array_slice($random, 0, 2, true);
+$r2 = array_slice($random, 4, null, true);
+$r3 = array("j" => 45, "k" => 12);
 
-$randomDataCorrectWay = $r1+$r2+$r3;
+$randomDataCorrectWay = $r1 + $r2 + $r3;
+print_r($r1);
+print_r($r2);
+print_r($r3);
 print_r($randomDataCorrectWay);

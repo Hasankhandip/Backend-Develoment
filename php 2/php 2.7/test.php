@@ -29,12 +29,13 @@ printNumber(21,37);
 */
 
 
-function printNumber($counter,$end,$stepping=1){
-    if($counter>$end){
+function printNumber($counter, $end, $stepping = 1)
+{
+    if ($counter > $end) {
         return;
     }
-    echo $counter."\n";
+    echo $counter . PHP_EOL;
     $counter += $stepping;
-    printNumber($counter,$end,$stepping);
+    printNumber($counter, $end, $stepping);
 }
-printNumber(21,37,6);
+printNumber(21, 37, 2);

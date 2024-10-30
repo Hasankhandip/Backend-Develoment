@@ -17,4 +17,8 @@ serve();
 */
 
 
-serve("Salad","2 plates");
+serve();
+echo PHP_EOL;
+serve("Coke");
+echo PHP_EOL;
+serve("Salad", "2 plates");

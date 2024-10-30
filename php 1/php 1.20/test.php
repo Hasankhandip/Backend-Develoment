@@ -4,52 +4,51 @@
 echo PHP_EOL; mean echo"\n";
 */
 
-$n = 12;
+$n = 121;
 
 
-if($n%2==0){
-    echo"Even Number";
-}else{
-    echo"Odd Number";
+if ($n % 2 == 0) {
+    echo "Even Number";
+} else {
+    echo "Odd Number";
 }
 
 echo PHP_EOL;
 
-if($n%2==0):
-    echo"Even Number";
+if ($n % 2 == 0):
+    echo "Even Number";
     echo PHP_EOL;
-    echo"Some Text";
+    echo "Some Text";
 // elseif (true):
 else:
-    echo"Odd Number";
+    echo "Odd Number";
     echo PHP_EOL;
-    echo"Some Text++";
+    echo "Some Text++";
 endif;
 
 echo PHP_EOL;
 
-switch($n%2):
+switch ($n % 2 == 0):
     case 0:
-        echo"$n is even number";
+        echo "$n is even number";
         break;
     default:
-        echo"$n is odd number";
+        echo "$n is odd number";
 endswitch;
 
 
 
-
 /*
-<?php
-if($n%2==0):
+echo PHP_EOL;
+if ($n % 2 == 0):
 ?>
-Even Number
-Some Text
+    Even Number
+    Some Text
 <?php
 else:
 ?>
-Odd Number
-Some Text++
+    Odd Number
+    Some Text++
 <?php
 endif;
 */

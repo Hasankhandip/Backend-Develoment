@@ -1,25 +1,25 @@
 <?php
 
-$name=0;
+$name = 75;
 
-if(isset($name)){
+if (isset($name)) {
     echo "Name is set";
-}else{
+} else {
     echo "Not set";
 }
 
 echo PHP_EOL;
 
-if(empty($name)){
+if (empty($name)) {
     echo "Name is empty";
-}else{
+} else {
     echo "Not empty";
 }
 
 echo PHP_EOL;
 
-if(isset($name) && (is_numeric($name) || $name != '')){
+if (isset($name) && (is_numeric($name) || $name != '')) {
     echo "Name is set and it's not empty";
-}else{
-    echo "Name is either not set or it,s empty";
+} else {
+    echo "Name is either not set or it's empty";
 }

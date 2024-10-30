@@ -4,8 +4,8 @@
 $name = "Earth"; // global scope
 
 function dosomething(){
-    global $name;
-    echo $name;
+    // global $name;
+    // echo $name;
     
     echo $GLOBALS ['name'];
 }
@@ -37,7 +37,8 @@ doSomething();
 */
 
 
-function doSomething(){
+function doSomething()
+{
     static $i; //static scope
     $i = $i ?? 0;
     $i++;
@@ -45,7 +46,8 @@ function doSomething(){
     echo "\n";
 }
 
-function doExtra(){
+function doExtra()
+{
     static $i;
     $i = $i ?? 0;
     $i++;

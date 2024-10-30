@@ -14,9 +14,9 @@ $task = "Write";
 echo "{$task}\n";
 
 
-define("PI",3.1416);
+define("PI", 3.1416);
 
-echo "Value of PI = ".PI;
+echo "Value of PI = " . PI;
 echo "\n";
 echo constant("PI");
 $constant = "constant";

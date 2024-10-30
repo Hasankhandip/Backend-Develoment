@@ -1,5 +1,5 @@
 <?php
- 
+
 /*
 <------------ array manupulation ---------->$_COOKIE
 
@@ -9,7 +9,7 @@ array_unshift(); // prothom dike data entry kore
 
 array_pop();    // last er diker data remove kore
 
-array_push(); // prothom dike data entry kore
+array_push(); // prothom dike data entry kore 
 
 */
 
@@ -23,8 +23,8 @@ $students = [
 $students[2] = "shafik";
 
 $n = count($students);
-for($i = 0; $i < $n; $i++){
-    echo $students[$i]."\n";
+for ($i = 0; $i < $n; $i++) {
+    echo $students[$i] . "\n";
 }
 
 echo PHP_EOL;
@@ -39,6 +39,6 @@ array_unshift($students, "salman");
 
 
 $n = count($students);
-for($i = 0; $i < $n; $i++){
-    echo $students[$i]."\n";
+for ($i = 0; $i < $n; $i++) {
+    echo $students[$i] . "\n";
 }
